@@ -45,7 +45,7 @@ function App() {
         </form>
         
       </div>
-      <Scoreboard picks = {players}/>
+      {players.length > 0 && <Scoreboard picks = {players}/>}
       <Button/>
     </>
   );
